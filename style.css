@@ -1,0 +1,70 @@
+body {
+	background-image: url("img/sample-pattern.png");
+	margin: 0;
+	padding: 0;
+}
+
+.head {
+  	background-color: white;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	z-index: 10000;
+  	clear: both;
+}
+
+.left {
+	display: inline;
+	float: left;
+	padding: 5px 0px 0px 5px;
+}
+
+.right {
+	display: inline;
+	float: right;
+}
+
+.head li {
+	list-style-type: none;
+	float: left;
+	padding-right: 30px;
+}
+
+.content-box {  
+	margin: auto;
+  	position: relative;
+  	width: 80%;
+  	margin-bottom: 50px;
+}
+
+.content-head {
+	padding-top: 65px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 10px;
+	font-family: georgia, serif;
+}
+
+.footer {
+	background-color: black;
+ 	position: relative;
+	width: 100%;
+  	z-index: 1000;
+}
+footer h5 {
+	color: white;
+	text-align: center;
+}
+
+.article {
+	padding-left: 20px;
+	padding-right: 20px;
+ 	background: white;
+	margin: 1px;
+}
+
+* { 
+  border: 1px solid transparent;
+}
